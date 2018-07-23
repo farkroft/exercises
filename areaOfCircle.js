@@ -8,4 +8,5 @@ function pi () {
 
 
 var area = pi() * square(7);
-console.log(area);
+// console.log(typeof area);
+console.log(Math.ceil(area));
