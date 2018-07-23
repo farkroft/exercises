@@ -21,4 +21,4 @@ for (var i = 0; i < numbers.length; i++){
   // console.log('kemunculan =' + countNumber)
   // console.log('Modus =' + mode2)
 }
-  console.log('Modus =' + mode2)
+console.log('Modus =' + mode2)
