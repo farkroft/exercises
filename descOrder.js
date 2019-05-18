@@ -20,12 +20,11 @@ const descendingOrder = (n) => {
         }
         
         maxNumber = Math.max(...splittedInput)
-        console.log(splittedInput.length)
         splittedInput.map((index) => {
-        if (maxNumber == splittedInput[index]) {
-            splittedInput.splice(index, 1)
-            sortedArr.push(maxNumber)
-        }
+            if (maxNumber == splittedInput[index]) {
+                splittedInput.splice(index, 1)
+                sortedArr.push(maxNumber)
+            }
         })
     }
     descNumber = sortedArr.join('')
